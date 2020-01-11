@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  color: rgba(166, 166, 166);
+}
+
+.footer hr {
+  width: calc(100%-30px);
+  margin: 0 15px;
+}
+
+.footer span {
+  margin-top: 10px;
+}

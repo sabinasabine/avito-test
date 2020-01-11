@@ -1,0 +1,32 @@
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 0 0 0;
+}
+
+.add-comment input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(166, 166, 166);
+  border-radius: 3px;
+}
+
+.add-comment input:focus {
+  background: rgba(221, 221, 221);
+  outline: none;
+}
+
+.add-comment button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: rgba(90, 165, 209);
+  color: rgba(254, 254, 254);
+}
+
+@media (max-width: 480px) {
+  .add-comment input,
+  .add-comment button {
+    margin: 0 10px 15px;
+  }
+}

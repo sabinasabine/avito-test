@@ -1,0 +1,9 @@
+.modal-comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.modal-comment .comment-date {
+  color: rgba(166, 166, 166);
+}

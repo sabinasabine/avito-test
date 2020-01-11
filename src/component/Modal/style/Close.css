@@ -1,0 +1,20 @@
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 10;
+  color: rgba(85, 85, 85);
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.close-btn:hover {
+  color: rgba(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+  .close-btn {
+    right: 35px;
+    top: 25px;
+  }
+}
